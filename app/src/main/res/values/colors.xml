@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<color name="white">#ffffffff</color>
+	<color name="yellow">#FFC425</color>
+	<color name="darkgrey">#858585</color>	
+	<color name="black">#000000</color>
+    <color name="landmark_grey">#444444</color>
+	<color name="trimbleblue">#057AE8</color>
+	<color name="green">#005596</color>
+	<color name="nav_bar_color">#ffc425</color>
+	<color name="heading_text_color">#2d2d2d</color>
+	<color name="white_color">#ffffff</color>
+	<color name="grey_color">#d6d6d6</color>
+    <color name="red">#ff0000</color>
+    <color name="chartColor_1">#C0FF8C</color>
+    <color name="chartColor_2">#FFF78C</color>
+    <color name="chartColor_3">#FFD08C</color>
+    <color name="chartColor_4">#8CEAFF</color>
+    <color name="background_grey">#444444</color>
+    <color name="brightgreen">#4DBA7A</color>
+    <color name="brightyellow">#DAA520</color>
+    <color name="brightred">#F55E4B</color>
+
+
+	<!-- color name="green">#00AE5B</color -->
+</resources>

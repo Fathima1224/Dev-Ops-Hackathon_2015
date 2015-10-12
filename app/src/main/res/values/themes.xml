@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="TrimbleTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="titleTextStyle">@style/MyActionBar.Text</item>
+        <item name="android:titleTextStyle">@style/MyActionBar.Text</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Trimble</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Trimble</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Trimble</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Trimble</item>
+        <item name="android:homeAsUpIndicator">@drawable/noimage</item>
+        <item name="homeAsUpIndicator">@drawable/menu</item>
+
+
+
+        <item name="actionBarTabTextStyle">@style/custom_actionbar_tab_text_style</item>
+        <item name="android:actionBarTabTextStyle">@style/custom_actionbar_tab_text_style</item>
+        <item name="actionMenuTextAppearance">@style/MenuItemTextStyle1</item>
+        <item name="android:actionMenuTextAppearance">@style/MenuItemTextStyle1</item>
+        <item name="actionMenuTextColor">@color/green</item>
+        <item name="android:actionMenuTextColor">@color/green</item>
+        <item name="actionBarItemBackground">@drawable/selectable_background_trimble</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Trimble</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Trimble</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Trimble</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_trimble</item>
+        <item name="actionModeSplitBackground">@color/yellow</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Trimble</item>
+        <item name="actionBarTabBarStyle">@style/Theme.Client.ActionBarTabBar</item>
+
+        <item name="searchViewStyle">@style/AppTheme.SearchView</item>
+
+
+      <!--  <item name="android:actionOverflowButtonStyle">@style/TrimbleTheme.OverFlow</item>
+        <item name="actionOverflowButtonStyle">@style/TrimbleTheme.OverFlow</item>!-->
+        <item name="colorPrimary">#ffc425</item>
+        <item name="colorPrimaryDark">#ffb125</item>
+        <item name="colorAccent">#FFFF00</item>
+
+        <item name="windowActionBar">false</item>
+
+
+
+    </style>
+    <style name="AppTheme.SearchView" parent="Widget.AppCompat.SearchView">
+
+
+        <item name="searchIcon">@drawable/search_icon_black</item>
+        <item name="closeIcon">@drawable/search_close</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textColorHighlight">@color/black</item>
+    </style>
+
+    <style name="AutoCompleteTextView" parent="Widget.AppCompat.Light.AutoCompleteTextView"/>
+
+   <!-- <style name="TrimbleTheme.OverFlow">
+        <item name="android:src">@drawable/attachment_black_small</item>
+    </style>!-->
+
+    <style name="Theme.Client.ActionBarTabBar" parent="@style/Widget.AppCompat.Light.ActionBar.TabBar">
+        <item name="android:background">@drawable/bg_striped_split_img</item>
+        <item name="background">@drawable/bg_striped_split_img</item>
+        <item name="android:showDividers">middle</item>
+    </style>
+
+    <style name="ActionBar.Solid.Trimble" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@color/yellow</item>
+        <item name="backgroundStacked">@color/yellow</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_trimble</item>
+        <item name="progressBarStyle">@style/ProgressBar.Trimble</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Trimble" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="background">@drawable/ab_transparent_trimble</item>
+        <item name="progressBarStyle">@style/ProgressBar.Trimble</item>
+        <item name="android:actionMenuTextColor">@color/black</item>
+        <item name="actionMenuTextAppearance">@color/black</item>
+
+    </style>
+
+    <style name="PopupMenu.Trimble" parent="@style/Widget.AppCompat.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_trimble</item>
+    </style>
+
+    <style name="DropDownListView.Trimble" parent="@style/Widget.AppCompat.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_trimble</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Trimble" parent="@style/Widget.AppCompat.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/actionbar_tab_indicator</item>
+    </style>
+
+    <style name="DropDownNav.Trimble" parent="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_trimble</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_trimble</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_trimble</item>
+    </style>
+
+    <style name="ProgressBar.Trimble" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_trimble</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Trimble" parent="@style/Widget.AppCompat.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_trimble</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Trimble.Widget" parent="@style/Theme.AppCompat">
+        <item name="popupMenuStyle">@style/PopupMenu.Trimble</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Trimble</item>
+    </style>
+
+    <!-- Animations -->
+    <style name="MyAnimation" />
+
+    <!-- Animations for a non-full-screen window or activity. -->
+    <style name="MyAnimation.Window" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/right_to_left</item>
+        <item name="android:windowExitAnimation">@anim/left_to_right</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        `
+        <item name="android:background">#ffc525</item>
+        <item name="android:titleTextStyle">@style/MyActionBar.Text</item>
+        <item name="android:height">35dp</item>
+    </style>
+
+    <style name="MyActionBar.Text" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:background">#ffc525</item>
+    </style>
+
+    <style name="LayoutStyle">
+        <item name="android:background">#2d2d2d</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+
+    <style name="Theme.Styled" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/bg_striped</item>
+        <item name="android:background">@drawable/bg_striped</item>
+        <item name="backgroundSplit">@drawable/bg_striped_split</item>
+        <item name="android:backgroundSplit">@drawable/bg_striped_split</item>
+    </style>
+
+    <style name="SBT.ActionBarTab.Style" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="background">@drawable/tab</item>
+        <item name="android:background">@drawable/tab</item>
+        <item name="backgroundSplit">@drawable/bg_striped_split</item>
+        <item name="android:backgroundSplit">@drawable/bg_striped_split</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <style name="Example.ActionBar.TabTextStyle" parent="Widget.AppCompat.ActionBar.TabText">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+    <style name="TrimbleDialog" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:textColorAlertDialogListItem">#55FC70</item>
+    </style>
+
+
+
+</resources>

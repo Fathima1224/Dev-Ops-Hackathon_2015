@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/darkgray"></item>
+    <item android:right="13dp" >
+        <bitmap android:src="@drawable/tick_blue"
+          android:gravity="center_vertical|right" 
+          />
+    </item>
+</layer-list>

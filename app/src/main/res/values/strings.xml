@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">DevOps_Dashboard</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+
+    <!--<string name="app_name">Oculus Mobile App</string>-->
+
+    <string name="welcome">Welcome</string>
+    <!--<string name="action_settings">Settings</string>-->
+    <string name="title_activity_splash">SplashActivity</string>
+    <!--<string name="title_activity_login">LoginActivity</string>-->
+    <string name="title_activity_mainmenu">MainmenuActivity</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="no">No</string>
+    <string name="action_sign_in_register"><b>Login</b></string>
+    <string name="reset_password">Reset Password</string>
+    <string name="title_activity_phone_master">PhoneMasterActivity</string>
+    <string name="title_activity_phone_slave">PhoneSlaveActivity</string>
+    <string name="title_activity_tab">TabActivity</string>
+
+
+    <string name="find_persons">Find People</string>
+    <string name="lone_worker">Lone Worker</string>
+
+    <string name="find_people_fragment_title">People</string>
+    <string name="lone_worker_fragment_title">Lone Worker</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_streaming">StreamingActivity</string>
+
+    <!--<string name="hello_world">Hello world!</string>-->
+    <string name="cancel">Cancel</string>
+    <string name="settings">Settings</string>
+
+    <!-- IN APP ERRORS -->
+    <string name="NO_NETWORK_CONNECTION">No Internet Connection</string>
+    <string name="ERR_NO_DEVICE_ASSOCIATION">No Device associated to the technician</string>
+    <string name="CATEGORY_NOT_INCLUDED">Category not Included in Search</string>
+    <string name="RESULTS_NOT_FOUND">No Results Found</string>
+    <string name="not_selected_text">Category not Included in Search</string>
+    <string name="no_results_text">No Results Found</string>
+    <string name="no_search_results_text">No Search Results Found</string>
+
+    <string name="WAITING_FOR_LOCATION_RETRY">Waiting for location. Retry</string>
+    <string name="LOCATION_NOT_AVAILABLE">Location Not Available</string>
+    <string name="LOCATION_SERVICE_NOT_ENABLED">Enable Location Service and Refresh</string>
+    <string name="ERR_FINDING_EMPLOYEE">System Error. Contact your Administrator</string>
+    <string name="SYSTEM_ERROR">System Error. Contact your Administrator</string>
+    <string name="TIMEOUT_ERROR">Cannot reach the server. Try again later</string>
+    <string name="REMAINDER_MSG">Lone Worker alarm about to expire.</string>
+    <string name="ENTER_ALL_FIELDS">Please enter all the fields</string>
+
+
+    <string name="GENERIC_ERROR">Error Occured.</string>
+
+
+
+    <!-- SERVICE LAYER ERRORS -->
+    <string name="ERR_NO_MOBILE_APP_ACCESS">Invalid User. Contact Customer Support</string>
+    <string name="ERR_INVALID_USER_CREDENTIALS">Invalid username or password</string>
+    <string name="ERR_NO_EMPLOYEE_ASSIGNED">No employee associated to the user</string>
+    <string name="ERR_SYSTEM_RETRY">System error. Retry.</string>
+    <string name="NOTEAM_SELECTED">Team member is not selected</string>
+    <string name="NOKEYLOCATION_SELECTED">Keylocation is not selected</string>
+    <string name="title_activity_time_sheet_generic">TimeSheetGenericActivity</string>
+    <string name="title_activity_time_locatioupdate">TimeSheetLocationUpdateActivity</string>
+    <string name="parts_pickup">Picked up Parts</string>
+    <string name="error">error</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="noActivity">No Activities Found</string>
+    <string name="noActivityMsg">You do not have any activities for this day</string>
+    <string name="mail_upload">Mail Upload</string>
+    <string name="report_toggle">Report Toggle</string>
+    <string name="done">Done</string>
+    <string name="leave_mainText">Leave</string>
+    <string name="leave_subext">You Have Applied Leave On This Day</string>
+    <string name="office_phone">Office Phone</string>
+    <string name="home_phone">Home Phone</string>
+    <string name="today">Today</string>
+    <string name="noattachments">No files to attach.</string>
+    <string name="supportedfiles">.csv,.pdf,.docx,.doc,.xls,.xlsx</string>
+    <string name="incomplete_closure_title">Incomplete Closure Reasons:</string>
+    <string name="gps_disabled">GPS is currently disabled. Enable GPS in your device settings to access your location.</string>
+    <string name="gps_title">GPS signal lost.</string>
+    <string name="address_search">Address Search</string>
+    <string name="location_tracking">Location Tracking</string>
+    <string name="location_enabled">Location Tracking is now enabled for your phone</string>
+    <string name="location_disabled">Location Tracking is no longer enabled for your phone</string>
+    <string name="access_disabled">You are logged out as Technician Capability is disabled for your phone</string>
+    <string name="attachments">Attachments</string>
+    <string name="attach_files">Attach Forms</string>
+    <string name="selectFile">Select Forms</string>
+    <string name="nohistory">There is no task history for this site</string>
+    <string name="tasknotassociated">This travel event cannot be edited, as the task is no longer assigned to you.</string>
+    <string name="nodataforsitehistory">Site history is not available as there is no data connection</string>
+    <string name="nodataforcratetask">No data connection</string>
+    <string name="photos">Photos</string>
+    <string name="invalid_login">Invalid Login. Please contact your adminstrator</string>
+    <string name="mandatory_fields">Please enter all the mandatory fields.</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <!--Fragments Titles !-->
+    <string name="fragment_find_persons">Persons</string>
+    <string name="fragment_lone_worker">Lone Worker</string>
+
+
+    <!-- UI diaplayed stringd !-->
+    <string name="lone_worker_activate">Set</string>
+    <string name="lone_worker_deactivate">Dismiss</string>
+    <string name="lone_worker_cancel">Cancel</string>
+    <string name="lone_worker_number_picker_dialog_title">Set Duration</string>
+    <string name="lone_worker_dismiss_title">Choose</string>
+</resources>
