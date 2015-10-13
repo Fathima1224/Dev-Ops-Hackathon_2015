@@ -13,7 +13,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 
-
+////added comment
 public class LoginActivity extends AppCompatActivity {
     private EditText txtUserName = (EditText) findViewById(R.id.username);
     private EditText txtPassword = (EditText) findViewById(R.id.password);
