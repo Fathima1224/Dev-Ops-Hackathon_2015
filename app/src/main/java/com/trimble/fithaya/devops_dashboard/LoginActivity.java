@@ -35,7 +35,7 @@ public class LoginActivity extends Activity {
                 try {
                     if (username.equalsIgnoreCase("USER") && password.equals("12345")) {
                         //lblResult.setText("Login successful");
-                        Intent loginIntent = new Intent(LoginActivity.this, MainActivity.class);
+                        Intent loginIntent = new Intent(LoginActivity.this, App_drawerActivity.class);
                         startActivity(loginIntent);
                     } else {
 

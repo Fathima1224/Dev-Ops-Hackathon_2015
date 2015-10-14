@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">DevOps_Dashboard</string>
 
+
+    <!--- App Drawer Activity-->
+
+    <string-array name="navigation_drawer_items_array">
+        <item>QA</item>
+        <item>Staging</item>
+        <item>Production</item>
+    </string-array>
+
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_login">LoginActivity</string>
