@@ -1,0 +1,22 @@
+apply plugin: 'android-library'
+
+dependencies {
+    compile 'com.google.android.gms:play-services:4.0.30'
+    compile 'com.android.support:support-v4:20.0.0'
+    compile 'org.apache.httpcomponents:httpmime:4.2.5'
+    compile 'org.apache.httpcomponents:httpcore:4.2.5'
+    compile files('libs/armeabi.jar')
+    compile files('libs/commons-codec.jar')
+    compile files('libs/greenDAO-1.3.7.jar')
+    compile files('libs/sqlcipher.jar')
+    compile files('libs/x86.jar')
+}
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
+
+    lintOptions {
+        abortOnError false
+    }
+}
