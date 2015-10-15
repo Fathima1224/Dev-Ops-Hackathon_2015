@@ -25,7 +25,7 @@ public class LoginActivity extends Activity {
         txtUserName = (EditText) findViewById(R.id.username);
         txtPassword = (EditText) findViewById(R.id.password);
         btnSignin = (Button) findViewById(R.id.sign_in_button);
-        //lblStatus = (TextView) findViewById(R.id.login_status);
+
         btnSignin.setOnClickListener(new OnClickListener() {
 
             @Override
@@ -33,12 +33,11 @@ public class LoginActivity extends Activity {
                 String username = txtUserName.getText().toString();
                 String password = txtPassword.getText().toString();
                 try {
-                    if (username.equalsIgnoreCase("USER") && password.equals("12345")) {
+                    if (username.equalsIgnoreCase("admin") && password.equals("admin12")) {
                         //lblResult.setText("Login successful");
                         Intent loginIntent = new Intent(LoginActivity.this, App_drawerActivity.class);
                         startActivity(loginIntent);
                     } else {
-
                         Toast.makeText(LoginActivity.this, "Login Failed", Toast.LENGTH_LONG).show();
                     }
                 } catch (Exception e) {

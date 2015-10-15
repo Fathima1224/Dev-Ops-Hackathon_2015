@@ -91,7 +91,18 @@
     <orderEntry type="jdk" jdkName="Android API 22 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="support-v4-22.0.0" level="project" />
+<<<<<<< HEAD
     <orderEntry type="library" exported="" name="support-annotations-22.0.0" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-22.0.0" level="project" />
+=======
+    <orderEntry type="library" exported="" name="gson-2.2.4" level="project" />
+    <orderEntry type="library" exported="" name="support-annotations-22.0.0" level="project" />
+    <orderEntry type="library" exported="" name="scribe-1.3.7" level="project" />
+    <orderEntry type="library" exported="" name="httpcore-4.2.5" level="project" />
+    <orderEntry type="library" exported="" name="appcompat-v7-22.0.0" level="project" />
+    <orderEntry type="library" exported="" name="httpmime-4.2.5" level="project" />
+    <orderEntry type="module" module-name="dashboardservice" exported="" />
+    <orderEntry type="module" module-name="service" exported="" />
+>>>>>>> 36e97d7082c43833abf20376df79ca1c6878522f
   </component>
 </module>

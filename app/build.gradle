@@ -22,4 +22,9 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.0.0'
+<<<<<<< HEAD
+=======
+    compile project(':libraries:service')
+    compile project(':libraries:dashboardservice')
+>>>>>>> 36e97d7082c43833abf20376df79ca1c6878522f
 }

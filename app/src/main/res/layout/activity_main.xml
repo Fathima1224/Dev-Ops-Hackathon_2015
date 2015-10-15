@@ -8,9 +8,14 @@
     <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+<<<<<<< HEAD
     <ListView
         android:id="@android:id/list"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"/>
+=======
+
+
+>>>>>>> 36e97d7082c43833abf20376df79ca1c6878522f
 
 </RelativeLayout>
