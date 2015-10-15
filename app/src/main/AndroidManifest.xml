@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.trimble.fithaya.devops_dashboard" >
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,9 +20,7 @@
         </activity>
         <activity    android:name=".MainActivity"  >
         </activity>
-        <activity android:name=".App_drawerActivity">
+        <activity android:name=".App_drawerActivity">    </activity>
 
-        </activity>
     </application>
-
 </manifest>

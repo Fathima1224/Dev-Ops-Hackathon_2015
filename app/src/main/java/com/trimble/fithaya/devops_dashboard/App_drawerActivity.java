@@ -23,7 +23,7 @@ public class App_drawerActivity extends Activity {
         setContentView(R.layout.app_draweractivity);
 
 
-        menu = new String[]{"DEV","QA","STAGING","PRODUCTION"};
+        menu = new String[]{"DEV","QA","STAGING","PRODUCTION","LOGOUT"};
         dLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         dList = (ListView) findViewById(R.id.left_drawer);
 
